@@ -1,6 +1,6 @@
 import cv2
-img_location = 'C:/surya/'
-filename = 'ss1.jpg'
+img_location = 'Enter the location of your image file '
+filename = 'name of your image'
 img = cv2.imread(img_location+filename)
 gray_image = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 inverted_gray_image = 255 - gray_image
